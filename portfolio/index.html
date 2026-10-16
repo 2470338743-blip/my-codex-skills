@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="视觉档案：关于海报、图像与纸张的个人视觉实验作品集。">
+  <meta name="theme-color" content="#f4f5f0">
+  <title>视觉档案 — 海报与视觉实验</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/portfolio-serif.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#work">跳到作品</a>
+  <header class="site-header">
+    <a href="#top" class="brand" aria-label="视觉档案，返回顶部">视觉档案<span lang="en">Visual archive</span></a>
+    <nav aria-label="主导航"><a href="#work">作品</a><a href="#about">关于</a><a href="#contact">联系</a></nav>
+  </header>
+  <main>
+    <div class="split-stage">
+      <aside class="stage" aria-label="当前作品预览">
+        <a class="stage-art" href="assets/city-cycling.png" data-viewer data-project="cycling" aria-label="查看 One More Block 大图">
+          <img id="stage-image" src="assets/city-cycling.png" alt="钴蓝与陶土橙的城市骑行海报，骑行者与车轮组合成一个主视觉" width="1086" height="1448" fetchpriority="high">
+        </a>
+        <div class="stage-caption"><span id="stage-title" lang="en">One More Block</span><span id="stage-medium">双色海报 · 城市骑行</span></div>
+        <div class="stage-controls" aria-label="切换预览作品" hidden>
+          <button type="button" data-select="cycling" aria-label="预览 One More Block" aria-pressed="true"></button>
+          <button type="button" data-select="dragon" aria-label="预览 4403天秤龙" aria-pressed="false"></button>
+          <button type="button" data-select="bobi" aria-label="预览 bobi" aria-pressed="false"></button>
+          <button type="button" data-select="looking" aria-label="预览 Looking Up" aria-pressed="false"></button>
+          <button type="button" data-select="quiet" aria-label="预览 A Quiet Moment" aria-pressed="false"></button>
+        </div>
+      </aside>
+      <div class="reading-column">
+        <section class="intro" aria-labelledby="intro-title">
+          <div class="intro-copy">
+            <h1 id="intro-title">海报与<br>视觉实验。</h1>
+            <p class="intro-description">一个关于图像、文字与纸张的个人作品集。<br class="desktop-break">用有限的颜色，留住鲜明的印象。</p>
+            <a class="button" href="#work">浏览作品 <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="intro-note"><span>个人创作 · AI 辅助</span><span lang="en">Always exploring.</span></div>
+        </section>
+        <section class="work content-section" id="work" aria-labelledby="work-title">
+          <div class="section-heading"><h2 id="work-title">精选作品</h2><p>从城市的速度，到一个安静的表情。</p></div>
+          <article class="project" id="cycling" data-project="cycling">
+            <a href="assets/city-cycling.png" class="project-picture" data-viewer data-project="cycling" aria-label="查看 One More Block 大图"><img src="assets/city-cycling.png" alt="One More Block：蓝橙双色城市骑行海报" width="1086" height="1448" loading="lazy"></a>
+            <div class="project-copy"><h3><a href="assets/city-cycling.png" data-viewer data-project="cycling" lang="en">One More Block <span aria-hidden="true">↗</span></a></h3><p class="medium">双色海报 · 城市骑行</p><p>钴蓝里的城市，陶土橙里的速度。以车轮作为画面的重心，让人物与文字一起进入骑行的节奏。</p></div>
+          </article>
+          <article class="project" id="dragon" data-project="dragon">
+            <a href="assets/4403-libra-dragon.png" class="project-picture" data-viewer data-project="dragon" aria-label="查看 4403天秤龙 大图"><img src="assets/4403-libra-dragon.png" alt="4403天秤龙：钴蓝的龙与陶土橙天秤" width="1086" height="1448" loading="lazy"></a>
+            <div class="project-copy"><h3><a href="assets/4403-libra-dragon.png" data-viewer data-project="dragon">4403天秤龙 <span aria-hidden="true">↗</span></a></h3><p class="medium">主题海报 · 字与形</p><p>把龙的力量与天秤的平衡放在同一个画面。数字、汉字与龙身穿插，保留纸面，让主角呼吸。</p></div>
+          </article>
+          <article class="project" id="bobi" data-project="bobi">
+            <a href="assets/bobi-editorial.png" class="project-picture" data-viewer data-project="bobi" aria-label="查看 bobi 大图"><img src="assets/bobi-editorial.png" alt="bobi：以蓝橙印刷语言重组的头巾胡须人物肖像" width="1086" height="1448" loading="lazy"></a>
+            <div class="project-copy"><h3><a href="assets/bobi-editorial.png" data-viewer data-project="bobi" lang="en">bobi <span aria-hidden="true">↗</span></a></h3><p class="medium">人物海报 · 印刷实验</p><p>头巾、浓眉与胡须成为人物的识别线索。用粗细鲜明的衬线字与网点，重新组织这张温暖的肖像。</p></div>
+          </article>
+          <article class="project" id="looking" data-project="looking">
+            <a href="assets/looking-up-editorial.png" class="project-picture" data-viewer data-project="looking" aria-label="查看 Looking Up 大图"><img src="assets/looking-up-editorial.png" alt="Looking Up：薄荷绿与炭黑呈现戴帽人物抬头的姿态" width="1086" height="1448" loading="lazy"></a>
+            <div class="project-copy"><h3><a href="assets/looking-up-editorial.png" data-viewer data-project="looking" lang="en">Looking Up <span aria-hidden="true">↗</span></a></h3><p class="medium">编辑式海报 · 人物姿态</p><p>保留向上的视线、帽子与短发轮廓。薄荷绿和炭黑构成克制的双色，让标题回应人物的视线方向。</p></div>
+          </article>
+          <article class="project" id="quiet" data-project="quiet">
+            <a href="assets/quiet-moment-editorial.png" class="project-picture" data-viewer data-project="quiet" aria-label="查看 A Quiet Moment 大图"><img src="assets/quiet-moment-editorial.png" alt="A Quiet Moment：长发微笑肖像与大幅衬线标题的薄荷绿海报" width="1086" height="1448" loading="lazy"></a>
+            <div class="project-copy"><h3><a href="assets/quiet-moment-editorial.png" data-viewer data-project="quiet" lang="en">A Quiet Moment <span aria-hidden="true">↗</span></a></h3><p class="medium">肖像海报 · 安静的瞬间</p><p>在笑容、长发与大幅文字之间寻找留白。轻微的油墨浓淡，让原本柔和的肖像有了纸上的触感。</p></div>
+          </article>
+        </section>
+        <section class="about content-section" id="about" aria-labelledby="about-title">
+          <h2 id="about-title">少一点颜色，<br>多一点想象。</h2>
+          <div class="letter"><p>我喜欢画面里那些可以被触摸的感觉：纸张的纤维、油墨的浓淡，还有并不完全重合的边缘。</p><p>这里的实验从一个具体的对象开始：一辆车、一条龙，或者一个表情。先找到最值得被记住的部分，再让文字、颜色与留白围绕它展开。</p><p>这些作品以 AI 辅助完成，重点是探索视觉方向与编辑式排版。它们是持续积累的个人研究，不代表商业委托案例。</p></div>
+          <p class="signoff" lang="en">Less ink. More feeling.</p>
+        </section>
+      </div>
+    </div>
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div><h2 id="contact-title">从一个想法开始。</h2><p>关于海报、图像或一次新的视觉实验，<br>期待下一种可能。</p></div>
+      <figure><img src="assets/quiet-moment-editorial.png" alt="A Quiet Moment 作品局部预览" width="1086" height="1448" loading="lazy"></figure>
+      <div class="contact-links"><a href="https://github.com/2470338743-blip" target="_blank" rel="noopener noreferrer">访问 GitHub <span aria-hidden="true">↗</span></a><a href="#work">回看作品 <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a class="footer-picture" href="assets/city-cycling.png" data-viewer data-project="cycling" aria-label="再次查看城市骑行海报"><img src="assets/city-cycling.png" alt="城市骑行海报的蓝橙图像细节" width="1086" height="1448" loading="lazy"></a>
+    <div class="footer-copy"><h2>继续看，<br>继续做。</h2><nav aria-label="页脚导航"><a href="#work">精选作品 ↗</a><a href="#about">创作笔记 ↗</a><a href="#top">返回顶部 ↑</a></nav><p>视觉档案 <span>个人视觉实验 / 2026</span></p></div>
+  </footer>
+  <dialog id="art-viewer" aria-labelledby="viewer-title">
+    <div class="viewer-bar"><h2 id="viewer-title">作品</h2><button type="button" id="close-viewer" aria-label="关闭大图">关闭 <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-image-wrap"><img id="viewer-image" alt=""></div>
+    <div class="viewer-bottom"><p id="viewer-description"></p><a id="download-art" download>下载原图 ↓</a></div>
+  </dialog>
+</body>
+</html>
